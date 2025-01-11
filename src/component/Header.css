@@ -1,0 +1,103 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    height: 100vh;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    fill: red;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.language-select {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.signin-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.main-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.email-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+}
+
+.email-form button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.get-started-btn {
+    margin-left: 5px;
+}
